@@ -24,6 +24,17 @@ Agricultural robotics enhances efficiency, productivity, and precision in farmin
 
 ## Dependencies
 
+
+## Package Overview
+
+This section details the custom ROS packages developed for our project:
+
+parc_robot_bringup (./parc_robot_bringup/): This package houses configuration files, the simulated world, scripts, and launch files responsible for bringing up the PARC robot for both Task 1 and Task 2.
+
+parc_robot_description (./parc_robot_description/): This package contains the URDF (Unified Robot Description Format) description files for the PARC robot, its sensors, and launch files for the robot state publisher. URDF is an XML format used to describe the robot's physical structure and capabilities.
+
+parc_robot_interfaces (./parc_robot_interfaces/): This package includes custom message definitions used in our project for communication between various components. These custom messages likely facilitate data exchange specific to our robot's functionalities.
+
 **Packages needed are:** 
 
 * `ros2_control`: ROS packages including controller interface, controller manager, hardware interface etc.
