@@ -3,10 +3,12 @@
 ## Introduction
 
 Overview of the Competition Task
+
 The PARC 2024 competition involves developing software for the PARC AgRobot to autonomously navigate a simulated tomato field (Task 1) and estimate crop yield using computer vision techniques (Task 2).
 Agricultural robotics enhances efficiency, productivity, and precision in farming. In Africa, these technologies can address labor shortages, optimize resource use, and improve crop yields, contributing significantly to food security and sustainable agricultural practices. Implementing such innovations can revolutionize farming methods, making them more resilient and adaptable to changing environmental conditions.
 
 **Team Country:** Nigeira
+
 **Team Member Names:**
 
 * Samuel Oyefusi  (Team Leader)
