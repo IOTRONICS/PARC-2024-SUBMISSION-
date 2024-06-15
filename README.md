@@ -1,4 +1,4 @@
-# TEAM 1: PARC Engineers League 
+# TEAM IOTRONICS : PARC Engineers League 
 
 ## Introduction
 
@@ -24,7 +24,7 @@ Agricultural robotics enhances efficiency, productivity, and precision in farmin
 
 ## Dependencies
 
-**Packages needed are:** (These are ONLY examples for you to follow)
+**Packages needed are:** 
 
 * `ros2_control`: ROS packages including controller interface, controller manager, hardware interface etc.
 
@@ -38,11 +38,12 @@ Agricultural robotics enhances efficiency, productivity, and precision in farmin
 
 ## Task 1
 
-Include a brief description of your approach to the solution (*This should be only 5-7 sentences*).
+In Task 1, we used a camera for visual servoing, creating a model to detect pegs, which guided the robot to avoid them. Additionally, we utilized point cloud data from the camera for navigation and turning. This approach ensured the robot could effectively navigate the field, avoiding obstacles and staying on course.
 
-Write the command required to run your solution. Should be in this format: <br>
-` ros2 run <your-package-name> task1_solution.py `
-
+Command to run the solution:
+```
+ros2 run farmland_navigation roi
+```
 ## Task 2
 
 Include a brief description of your approach to the solution (*This should be only 5-7 sentences*).
@@ -51,7 +52,10 @@ Write the command required to run your solution. Should be in this format: <br>
 ` ros2 run <your-package-name> task2_solution.py `
 
 ## Challenges Faced
-
-Describe any challenges your team may have faced in solving these tasks. Try to document them in bullets as much as you can.
-
---------------------------------------------------
+Challenges Faced
+Internet connectivity issues.
+Insufficient GPU for image processing tasks.
+Difficulty in distinguishing closely packed tomatoes, resembling grape clusters.
+Misidentification of green tomatoes as weeds.
+Task 2
+For Task 2, detecting tomatoes was challenging due to their tendency to cluster together, complicating image processing. Green tomatoes occasionally confused the model, causing it to misidentify them as weeds.--------------------------------------------------
