@@ -45,11 +45,11 @@ Command to run the solution:
 ros2 run farmland_navigation roi
 ```
 ## Task 2
+We used OpenCV and YOLOv8 for tomato detection through object recognition. OpenCV handled the computer vision aspects, converting camera data and potentially filtering redundant detections. YOLOv8, trained on tomato data from the simulation environment (using Roboflow and ROS2 bags), performed the core object detection. This YOLOv8 model offered high accuracy but required a decent GPU for optimal performance.
 
-Include a brief description of your approach to the solution (*This should be only 5-7 sentences*).
+Command to run the solution:
 
-Write the command required to run your solution. Should be in this format: <br>
-` ros2 run <your-package-name> task2_solution.py `
+` ros2 run tomatoes_detection1 task2_solution `
 
 ## Challenges Faced
 Challenges Faced
