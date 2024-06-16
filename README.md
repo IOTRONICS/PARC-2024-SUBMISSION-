@@ -53,7 +53,7 @@ In Task 1, we used a camera for visual servoing, creating a model to detect pegs
 
 Command to run the solution:
 ```
-**ros2 run farmland_navigation roi**
+` ros2 run farmland_navigation roi `
 ```
 ## Task 2
 We used OpenCV and YOLOv8 for tomato detection through object recognition. OpenCV handled the computer vision aspects, converting camera data and potentially filtering redundant detections. YOLOv8, trained on tomato data from the simulation environment (using Roboflow and ROS2 bags), performed the core object detection. This YOLOv8 model offered high accuracy but required a decent GPU for optimal performance.
