@@ -1,7 +1,7 @@
 Title: Task2: Crop Yield Estimation using YOLOv8
 
 ## Description
-This packages tomatoes_detection1 is used to detect tomatoes in the field using object detection with the application of YOLOv8. When the robot detects the tomatoes, it counts each tomato detected on the field  once and at the end of the task it publishes the total count of the left and right camera/image to the CropYield msg and stops. 
+This packages tomatoes_detection1 is used to detect tomatoes in the field using object detection with the application of YOLOv8 and computer vision using Opencv. When the robot detects the tomatoes using  a trained model(best.pt) that has been annotated, it counts each tomato detected on the field  once and at the end of the task it publishes the total count of the left and right camera/image to the CropYield msg and stops. 
 
 ## Table of Contents
 - [Installation](#installation)
