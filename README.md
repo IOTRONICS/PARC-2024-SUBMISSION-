@@ -67,9 +67,10 @@ We used OpenCV and YOLOv8 for tomato detection through object recognition. OpenC
 
 Command to run the solution:
 
-**`
+```
 source ~/ros2_ws/install/setup.bash
-ros2 run tomatoes_detection1 task2_solution `**
+ros2 run tomatoes_detection1 task2_solution
+```
 
 ## Challenges Faced
 (Task 1)
