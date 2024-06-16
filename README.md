@@ -23,10 +23,22 @@ Agricultural robotics enhances efficiency, productivity, and precision in farmin
 
 ## Dependencies
 Packages needed are: 
-- pip install ultralytics # to is to be able to successfully run the tomatoes_detection1 package to be able to use YOLOv8. Install in the tomatoes_detection1 directory.
+-  pip:  pip install ultralytics     # to is to be able to successfully run the tomatoes_detection1 package to be able to use YOLOv8. Install in the 
+    tomatoes_detection1 directory.
 - opencv: Open-source computer vision library.
     $ sudo apt-get install python3-opencv
+  
 - ROS2 packages including parc_robot_interfaces, sensor_msgs, ament_index_python, rclpy, std_msgs, cv_bridge.
+  
+- dependence are located in the package.xml
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>parc_robot_interfaces</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>ament_index_python</depend>
+  
 - `ros2_control`: ROS packages including controller interface, controller manager, hardware interface etc.
     `$ sudo apt-get install ros-humble-ros2-control`
 
@@ -47,7 +59,7 @@ In Task 1, we used a camera for visual servoing, creating a model to detect pegs
 
 Command to run the solution:
 ```
-` ros2 run farmland_navigation roi `
+` ros2 run farmland_navigation task1_solution `
 ```
 ## Task 2
 We used OpenCV and YOLOv8 for tomato detection through object recognition. OpenCV handled the computer vision aspects, converting camera data and potentially filtering redundant detections. YOLOv8, trained on tomato data from the simulation environment (using Roboflow and ROS2 bags), performed the core object detection. This YOLOv8 model offered high accuracy but required a decent GPU for optimal performance.
@@ -57,11 +69,16 @@ Command to run the solution:
 **` ros2 run tomatoes_detection1 task2_solution `**
 
 ## Challenges Faced
-Task 1
+(Task 1)
+- We were nto able to create a map of the environment due to wild lidar readings. causing the map not to form properly
+- Even while using servoing for this task, we saw that the camera positions on the robotmodel was not set properly for visualization. for instance, the front camera was also covering some part of the robot blocking visualization.
+- The responds is not the best. for instance, turning the robot was hard, because he had to vary alot of angles and it was slow. 
 
-Task 2
-For Task 2, detecting tomatoes was challenging due to their tendency to cluster together, complicating image processing. Green tomatoes occasionally confused the model, causing it to misidentify them as weeds.--------------------------------------------------
-Internet connectivity issues.
-Insufficient GPU for image processing tasks.
-Difficulty in distinguishing closely packed tomatoes, resembling grape clusters.
-Misidentification of green tomatoes as weeds.
+
+(Task 2)
+- Detecting tomatoes was challenging due to their tendency to cluster together, complicating image processing. Green tomatoes occasionally confused the model, 
+ causing it to misidentify them as weeds.--------------------------------------------------
+- Internet connectivity issues.
+- Insufficient GPU for image processing tasks.
+- Difficulty in distinguishing closely packed tomatoes, resembling grape clusters.
+- Misidentification of green tomatoes as weeds.
