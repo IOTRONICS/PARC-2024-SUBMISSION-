@@ -23,11 +23,12 @@ Agricultural robotics enhances efficiency, productivity, and precision in farmin
 
 ## Dependencies
 Packages needed are: 
+# to is to be able to successfully run the tomatoes_detection1 package to be able to use YOLOv8. Install in the tomatoes_detection1 directory.
 ```
-pip:  pip install ultralytics     # to is to be able to successfully run the tomatoes_detection1 package to be able to use YOLOv8. Install in the tomatoes_detection1 directory.
-```
+pip:  pip install ultralytics 
 ```
 opencv: Open-source computer vision library.
+```
     $ sudo apt-get install python3-opencv
 ```
   
