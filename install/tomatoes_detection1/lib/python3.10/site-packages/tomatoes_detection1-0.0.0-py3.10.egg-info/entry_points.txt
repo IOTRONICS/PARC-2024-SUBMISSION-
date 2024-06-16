@@ -1,0 +1,4 @@
+[console_scripts]
+detect_tomatoes = tomatoes_detection1.task2_solution:main
+move_robot = tomatoes_detection1.robot_publisher:main
+

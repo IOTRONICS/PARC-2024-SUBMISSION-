@@ -1,0 +1,3 @@
+[console_scripts]
+roi = farmland_navigation.task1_solution:main
+
