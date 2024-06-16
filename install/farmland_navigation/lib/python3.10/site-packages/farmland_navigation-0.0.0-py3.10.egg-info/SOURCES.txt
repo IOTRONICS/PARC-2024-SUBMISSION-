@@ -10,6 +10,11 @@ setup.py
 ../../build/farmland_navigation/farmland_navigation.egg-info/top_level.txt
 ../../build/farmland_navigation/farmland_navigation.egg-info/zip-safe
 farmland_navigation/__init__.py
+<<<<<<< HEAD
+=======
+farmland_navigation/practice.py
+farmland_navigation/practice2.py
+>>>>>>> 60bf990b39ee441d535b82d242640e98a5d6f6eb
 farmland_navigation/task1_solution.py
 resource/farmland_navigation
 test/test_copyright.py

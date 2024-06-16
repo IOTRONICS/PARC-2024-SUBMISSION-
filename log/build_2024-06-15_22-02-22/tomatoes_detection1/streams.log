@@ -1,0 +1,22 @@
+[2.557s] Invoking command in '/home/iot/ros2_ws/src/tomatoes_detection1': CMAKE_PREFIX_PATH=/home/iot/ros2_ws/install/parc_robot_interfaces:/home/iot/ros2_ws/install/parc_robot_bringup:/home/iot/ros2_ws/install/parc_robot_description:/home/iot/ros2_ws/install/parc_robot PYTHONPATH=/home/iot/ros2_ws/build/tomatoes_detection1/prefix_override:/home/iot/ros2_ws/install/tomatoes_detection1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tomatoes_detection1 build --build-base /home/iot/ros2_ws/build/tomatoes_detection1/build install --record /home/iot/ros2_ws/build/tomatoes_detection1/install.log --single-version-externally-managed install_data
+[3.340s] running egg_info
+[3.342s] writing ../../build/tomatoes_detection1/tomatoes_detection1.egg-info/PKG-INFO
+[3.342s] writing dependency_links to ../../build/tomatoes_detection1/tomatoes_detection1.egg-info/dependency_links.txt
+[3.342s] writing entry points to ../../build/tomatoes_detection1/tomatoes_detection1.egg-info/entry_points.txt
+[3.343s] writing requirements to ../../build/tomatoes_detection1/tomatoes_detection1.egg-info/requires.txt
+[3.343s] writing top-level names to ../../build/tomatoes_detection1/tomatoes_detection1.egg-info/top_level.txt
+[3.348s] reading manifest file '../../build/tomatoes_detection1/tomatoes_detection1.egg-info/SOURCES.txt'
+[3.351s] writing manifest file '../../build/tomatoes_detection1/tomatoes_detection1.egg-info/SOURCES.txt'
+[3.351s] running build
+[3.351s] running build_py
+[3.352s] running install
+[3.353s] running install_lib
+[3.360s] running install_data
+[3.360s] running install_egg_info
+[3.365s] removing '/home/iot/ros2_ws/install/tomatoes_detection1/lib/python3.10/site-packages/tomatoes_detection1-0.0.0-py3.10.egg-info' (and everything under it)
+[3.366s] Copying ../../build/tomatoes_detection1/tomatoes_detection1.egg-info to /home/iot/ros2_ws/install/tomatoes_detection1/lib/python3.10/site-packages/tomatoes_detection1-0.0.0-py3.10.egg-info
+[3.369s] running install_scripts
+[3.424s] Installing detect_tomatoes script to /home/iot/ros2_ws/install/tomatoes_detection1/lib/tomatoes_detection1
+[3.424s] Installing move_robot script to /home/iot/ros2_ws/install/tomatoes_detection1/lib/tomatoes_detection1
+[3.425s] writing list of installed files to '/home/iot/ros2_ws/build/tomatoes_detection1/install.log'
+[3.480s] Invoked command in '/home/iot/ros2_ws/src/tomatoes_detection1' returned '0': CMAKE_PREFIX_PATH=/home/iot/ros2_ws/install/parc_robot_interfaces:/home/iot/ros2_ws/install/parc_robot_bringup:/home/iot/ros2_ws/install/parc_robot_description:/home/iot/ros2_ws/install/parc_robot PYTHONPATH=/home/iot/ros2_ws/build/tomatoes_detection1/prefix_override:/home/iot/ros2_ws/install/tomatoes_detection1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tomatoes_detection1 build --build-base /home/iot/ros2_ws/build/tomatoes_detection1/build install --record /home/iot/ros2_ws/build/tomatoes_detection1/install.log --single-version-externally-managed install_data

@@ -175,14 +175,22 @@ CMakeFiles/parc_robot_interfaces_uninstall.dir/clean:
 # Target rules for target CMakeFiles/parc_robot_interfaces.dir
 
 # All Build rule for target.
+<<<<<<< HEAD
+=======
+CMakeFiles/parc_robot_interfaces.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c.dir/all
+CMakeFiles/parc_robot_interfaces.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c.dir/all
+>>>>>>> 60bf990b39ee441d535b82d242640e98a5d6f6eb
 CMakeFiles/parc_robot_interfaces.dir/all: CMakeFiles/parc_robot_interfaces__cpp.dir/all
 CMakeFiles/parc_robot_interfaces.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all
 CMakeFiles/parc_robot_interfaces.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/all
 CMakeFiles/parc_robot_interfaces.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_cpp.dir/all
 CMakeFiles/parc_robot_interfaces.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/parc_robot_interfaces.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/all
+<<<<<<< HEAD
 CMakeFiles/parc_robot_interfaces.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/parc_robot_interfaces.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c.dir/all
+=======
+>>>>>>> 60bf990b39ee441d535b82d242640e98a5d6f6eb
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parc_robot_interfaces.dir/build.make CMakeFiles/parc_robot_interfaces.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parc_robot_interfaces.dir/build.make CMakeFiles/parc_robot_interfaces.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iot/ros2_ws/build/parc_robot_interfaces/CMakeFiles --progress-num= "Built target parc_robot_interfaces"
@@ -468,9 +476,15 @@ CMakeFiles/ament_cmake_python_build_parc_robot_interfaces_egg.dir/clean:
 # Target rules for target CMakeFiles/parc_robot_interfaces__rosidl_generator_py.dir
 
 # All Build rule for target.
+<<<<<<< HEAD
 CMakeFiles/parc_robot_interfaces__rosidl_generator_py.dir/all: parc_robot_interfaces__py/CMakeFiles/parc_robot_interfaces__py.dir/all
 CMakeFiles/parc_robot_interfaces__rosidl_generator_py.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/parc_robot_interfaces__rosidl_generator_py.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c.dir/all
+=======
+CMakeFiles/parc_robot_interfaces__rosidl_generator_py.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c.dir/all
+CMakeFiles/parc_robot_interfaces__rosidl_generator_py.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_generator_c.dir/all
+CMakeFiles/parc_robot_interfaces__rosidl_generator_py.dir/all: parc_robot_interfaces__py/CMakeFiles/parc_robot_interfaces__py.dir/all
+>>>>>>> 60bf990b39ee441d535b82d242640e98a5d6f6eb
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parc_robot_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/parc_robot_interfaces__rosidl_generator_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parc_robot_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/parc_robot_interfaces__rosidl_generator_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iot/ros2_ws/build/parc_robot_interfaces/CMakeFiles --progress-num=6,7 "Built target parc_robot_interfaces__rosidl_generator_py"
@@ -497,10 +511,17 @@ CMakeFiles/parc_robot_interfaces__rosidl_generator_py.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_generator_py.dir/all
+<<<<<<< HEAD
 CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: parc_robot_interfaces__py/CMakeFiles/parc_robot_interfaces__py.dir/all
 CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c.dir/all
+=======
+CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c.dir/all
+CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_generator_c.dir/all
+CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/all
+CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: parc_robot_interfaces__py/CMakeFiles/parc_robot_interfaces__py.dir/all
+>>>>>>> 60bf990b39ee441d535b82d242640e98a5d6f6eb
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iot/ros2_ws/build/parc_robot_interfaces/CMakeFiles --progress-num=19,20 "Built target parc_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext"
@@ -527,10 +548,17 @@ CMakeFiles/parc_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/clean
 
 # All Build rule for target.
 CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_generator_py.dir/all
+<<<<<<< HEAD
 CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: parc_robot_interfaces__py/CMakeFiles/parc_robot_interfaces__py.dir/all
 CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c.dir/all
+=======
+CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c.dir/all
+CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c.dir/all
+CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_generator_c.dir/all
+CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: parc_robot_interfaces__py/CMakeFiles/parc_robot_interfaces__py.dir/all
+>>>>>>> 60bf990b39ee441d535b82d242640e98a5d6f6eb
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iot/ros2_ws/build/parc_robot_interfaces/CMakeFiles --progress-num=27,28 "Built target parc_robot_interfaces__rosidl_typesupport_introspection_c__pyext"
@@ -557,9 +585,15 @@ CMakeFiles/parc_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/
 
 # All Build rule for target.
 CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_generator_py.dir/all
+<<<<<<< HEAD
 CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c__pyext.dir/all: parc_robot_interfaces__py/CMakeFiles/parc_robot_interfaces__py.dir/all
 CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c.dir/all
+=======
+CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c.dir/all
+CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/parc_robot_interfaces__rosidl_generator_c.dir/all
+CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c__pyext.dir/all: parc_robot_interfaces__py/CMakeFiles/parc_robot_interfaces__py.dir/all
+>>>>>>> 60bf990b39ee441d535b82d242640e98a5d6f6eb
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/parc_robot_interfaces__rosidl_typesupport_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iot/ros2_ws/build/parc_robot_interfaces/CMakeFiles --progress-num=11,12 "Built target parc_robot_interfaces__rosidl_typesupport_c__pyext"

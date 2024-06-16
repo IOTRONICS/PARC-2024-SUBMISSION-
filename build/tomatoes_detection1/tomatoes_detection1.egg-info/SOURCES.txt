@@ -14,5 +14,11 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 tomatoes_detection1/__init__.py
+<<<<<<< HEAD
 tomatoes_detection1/task2_solution.py
+=======
+tomatoes_detection1/hsv_filter.py
+tomatoes_detection1/task2_solution.py
+tomatoes_detection1/yolo_test.py
+>>>>>>> 60bf990b39ee441d535b82d242640e98a5d6f6eb
 weights/best.pt

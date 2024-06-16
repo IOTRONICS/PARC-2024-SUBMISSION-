@@ -1,7 +1,18 @@
+<<<<<<< HEAD
 /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation/__init__.py
 /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation/task1_solution.py
 /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation/__pycache__/__init__.cpython-310.pyc
 /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation/__pycache__/task1_solution.cpython-310.pyc
+=======
+/home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation/practice.py
+/home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation/__init__.py
+/home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation/task1_solution.py
+/home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation/practice2.py
+/home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation/__pycache__/practice.cpython-310.pyc
+/home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation/__pycache__/__init__.cpython-310.pyc
+/home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation/__pycache__/task1_solution.cpython-310.pyc
+/home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation/__pycache__/practice2.cpython-310.pyc
+>>>>>>> 60bf990b39ee441d535b82d242640e98a5d6f6eb
 /home/iot/ros2_ws/install/farmland_navigation/share/ament_index/resource_index/packages/farmland_navigation
 /home/iot/ros2_ws/install/farmland_navigation/share/farmland_navigation/package.xml
 /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation-0.0.0-py3.10.egg-info/zip-safe
@@ -11,4 +22,8 @@
 /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation-0.0.0-py3.10.egg-info/top_level.txt
 /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation-0.0.0-py3.10.egg-info/requires.txt
 /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation-0.0.0-py3.10.egg-info/entry_points.txt
+<<<<<<< HEAD
 /home/iot/ros2_ws/install/farmland_navigation/lib/farmland_navigation/task1_solution
+=======
+/home/iot/ros2_ws/install/farmland_navigation/lib/farmland_navigation/roi
+>>>>>>> 60bf990b39ee441d535b82d242640e98a5d6f6eb

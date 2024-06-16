@@ -1,3 +1,7 @@
 [console_scripts]
+<<<<<<< HEAD
 task1_solution = farmland_navigation.task1_solution:main
+=======
+roi = farmland_navigation.task1_solution:main
+>>>>>>> 60bf990b39ee441d535b82d242640e98a5d6f6eb
 

@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/farmland_navigation/farmland_navigation.egg-info
+writing ../../build/farmland_navigation/farmland_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/farmland_navigation/farmland_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/farmland_navigation/farmland_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/farmland_navigation/farmland_navigation.egg-info/requires.txt
+writing top-level names to ../../build/farmland_navigation/farmland_navigation.egg-info/top_level.txt
+writing manifest file '../../build/farmland_navigation/farmland_navigation.egg-info/SOURCES.txt'
+reading manifest file '../../build/farmland_navigation/farmland_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/farmland_navigation/farmland_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/iot/ros2_ws/build/farmland_navigation/build
+creating /home/iot/ros2_ws/build/farmland_navigation/build/lib
+creating /home/iot/ros2_ws/build/farmland_navigation/build/lib/farmland_navigation
+copying farmland_navigation/practice.py -> /home/iot/ros2_ws/build/farmland_navigation/build/lib/farmland_navigation
+copying farmland_navigation/__init__.py -> /home/iot/ros2_ws/build/farmland_navigation/build/lib/farmland_navigation
+copying farmland_navigation/task1_solution.py -> /home/iot/ros2_ws/build/farmland_navigation/build/lib/farmland_navigation
+copying farmland_navigation/practice2.py -> /home/iot/ros2_ws/build/farmland_navigation/build/lib/farmland_navigation
+running install
+running install_lib
+creating /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation
+copying /home/iot/ros2_ws/build/farmland_navigation/build/lib/farmland_navigation/practice.py -> /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation
+copying /home/iot/ros2_ws/build/farmland_navigation/build/lib/farmland_navigation/__init__.py -> /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation
+copying /home/iot/ros2_ws/build/farmland_navigation/build/lib/farmland_navigation/task1_solution.py -> /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation
+copying /home/iot/ros2_ws/build/farmland_navigation/build/lib/farmland_navigation/practice2.py -> /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation
+byte-compiling /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation/practice.py to practice.cpython-310.pyc
+byte-compiling /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation/task1_solution.py to task1_solution.cpython-310.pyc
+byte-compiling /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation/practice2.py to practice2.cpython-310.pyc
+running install_data
+creating /home/iot/ros2_ws/install/farmland_navigation/share/ament_index
+creating /home/iot/ros2_ws/install/farmland_navigation/share/ament_index/resource_index
+creating /home/iot/ros2_ws/install/farmland_navigation/share/ament_index/resource_index/packages
+copying resource/farmland_navigation -> /home/iot/ros2_ws/install/farmland_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/iot/ros2_ws/install/farmland_navigation/share/farmland_navigation
+running install_egg_info
+Copying ../../build/farmland_navigation/farmland_navigation.egg-info to /home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages/farmland_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing roi script to /home/iot/ros2_ws/install/farmland_navigation/lib/farmland_navigation
+writing list of installed files to '/home/iot/ros2_ws/build/farmland_navigation/install.log'
