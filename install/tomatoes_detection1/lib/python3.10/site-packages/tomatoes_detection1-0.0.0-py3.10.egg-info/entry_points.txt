@@ -1,8 +1,0 @@
-[console_scripts]
-<<<<<<< HEAD
-task2_solution = tomatoes_detection1.task2_solution:main
-=======
-detect_tomatoes = tomatoes_detection1.task2_solution:main
-move_robot = tomatoes_detection1.robot_publisher:main
->>>>>>> 60bf990b39ee441d535b82d242640e98a5d6f6eb
-
