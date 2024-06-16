@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/iot/ros2_ws/install/tomatoes_detection1/lib/python3.10/site-packages",
+        "/home/iot/ros2_ws/install/parc_robot_bringup/local/lib/python3.10/dist-packages",
+        "/home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages",
+        "/home/iot/ros2_ws/install/parc_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/iot/ros2_ws/install/tomatoes_detection1/lib/python3.10/site-packages",
+        "/home/iot/ros2_ws/install/parc_robot_bringup/local/lib/python3.10/dist-packages",
+        "/home/iot/ros2_ws/install/farmland_navigation/lib/python3.10/site-packages",
+        "/home/iot/ros2_ws/install/parc_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

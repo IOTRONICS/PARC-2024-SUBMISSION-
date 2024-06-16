@@ -1,0 +1,3 @@
+[console_scripts]
+task2_solution = tomatoes_detection1.task2_solution:main
+

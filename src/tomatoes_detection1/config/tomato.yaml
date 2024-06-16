@@ -1,0 +1,13 @@
+train: data/tomato/train/images
+val: data/tomato/val/images
+test: data/tomato/test/images
+
+nc: 1
+names: ['tomato']
+
+roboflow:
+  workspace: tomatoesdetection
+  project: tomato_detection-lttpc
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tomatoesdetection/tomato_detection-lttpc/dataset/4

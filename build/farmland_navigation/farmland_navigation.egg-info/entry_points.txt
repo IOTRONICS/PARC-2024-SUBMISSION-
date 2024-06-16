@@ -1,0 +1,3 @@
+[console_scripts]
+task1_solution = farmland_navigation.task1_solution:main
+

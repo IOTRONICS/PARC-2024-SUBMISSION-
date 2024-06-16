@@ -1,0 +1,39 @@
+[0.843s] Invoking command in '/home/iot/ros2_ws/src/tomatoes_detection1': CMAKE_PREFIX_PATH=/home/iot/ros2_ws/install/parc_robot_interfaces:/home/iot/ros2_ws/install/parc_robot_bringup:/home/iot/ros2_ws/install/parc_robot_description:/home/iot/ros2_ws/install/parc_robot PYTHONPATH=/home/iot/ros2_ws/build/tomatoes_detection1/prefix_override:/home/iot/ros2_ws/install/tomatoes_detection1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tomatoes_detection1 build --build-base /home/iot/ros2_ws/build/tomatoes_detection1/build install --record /home/iot/ros2_ws/build/tomatoes_detection1/install.log --single-version-externally-managed install_data
+[1.049s] running egg_info
+[1.049s] creating ../../build/tomatoes_detection1/tomatoes_detection1.egg-info
+[1.050s] writing ../../build/tomatoes_detection1/tomatoes_detection1.egg-info/PKG-INFO
+[1.050s] writing dependency_links to ../../build/tomatoes_detection1/tomatoes_detection1.egg-info/dependency_links.txt
+[1.050s] writing entry points to ../../build/tomatoes_detection1/tomatoes_detection1.egg-info/entry_points.txt
+[1.050s] writing requirements to ../../build/tomatoes_detection1/tomatoes_detection1.egg-info/requires.txt
+[1.050s] writing top-level names to ../../build/tomatoes_detection1/tomatoes_detection1.egg-info/top_level.txt
+[1.051s] writing manifest file '../../build/tomatoes_detection1/tomatoes_detection1.egg-info/SOURCES.txt'
+[1.051s] reading manifest file '../../build/tomatoes_detection1/tomatoes_detection1.egg-info/SOURCES.txt'
+[1.052s] writing manifest file '../../build/tomatoes_detection1/tomatoes_detection1.egg-info/SOURCES.txt'
+[1.052s] running build
+[1.052s] running build_py
+[1.052s] creating /home/iot/ros2_ws/build/tomatoes_detection1/build
+[1.052s] creating /home/iot/ros2_ws/build/tomatoes_detection1/build/lib
+[1.052s] creating /home/iot/ros2_ws/build/tomatoes_detection1/build/lib/tomatoes_detection1
+[1.053s] copying tomatoes_detection1/__init__.py -> /home/iot/ros2_ws/build/tomatoes_detection1/build/lib/tomatoes_detection1
+[1.053s] copying tomatoes_detection1/task2_solution.py -> /home/iot/ros2_ws/build/tomatoes_detection1/build/lib/tomatoes_detection1
+[1.053s] running install
+[1.053s] running install_lib
+[1.054s] creating /home/iot/ros2_ws/install/tomatoes_detection1/lib/python3.10/site-packages/tomatoes_detection1
+[1.054s] copying /home/iot/ros2_ws/build/tomatoes_detection1/build/lib/tomatoes_detection1/__init__.py -> /home/iot/ros2_ws/install/tomatoes_detection1/lib/python3.10/site-packages/tomatoes_detection1
+[1.054s] copying /home/iot/ros2_ws/build/tomatoes_detection1/build/lib/tomatoes_detection1/task2_solution.py -> /home/iot/ros2_ws/install/tomatoes_detection1/lib/python3.10/site-packages/tomatoes_detection1
+[1.055s] byte-compiling /home/iot/ros2_ws/install/tomatoes_detection1/lib/python3.10/site-packages/tomatoes_detection1/__init__.py to __init__.cpython-310.pyc
+[1.055s] byte-compiling /home/iot/ros2_ws/install/tomatoes_detection1/lib/python3.10/site-packages/tomatoes_detection1/task2_solution.py to task2_solution.cpython-310.pyc
+[1.056s] running install_data
+[1.056s] creating /home/iot/ros2_ws/install/tomatoes_detection1/share/ament_index
+[1.056s] creating /home/iot/ros2_ws/install/tomatoes_detection1/share/ament_index/resource_index
+[1.056s] creating /home/iot/ros2_ws/install/tomatoes_detection1/share/ament_index/resource_index/packages
+[1.057s] copying resource/tomatoes_detection1 -> /home/iot/ros2_ws/install/tomatoes_detection1/share/ament_index/resource_index/packages
+[1.057s] copying package.xml -> /home/iot/ros2_ws/install/tomatoes_detection1/share/tomatoes_detection1
+[1.057s] creating /home/iot/ros2_ws/install/tomatoes_detection1/share/tomatoes_detection1/weights
+[1.057s] copying weights/best.pt -> /home/iot/ros2_ws/install/tomatoes_detection1/share/tomatoes_detection1/weights
+[1.070s] running install_egg_info
+[1.071s] Copying ../../build/tomatoes_detection1/tomatoes_detection1.egg-info to /home/iot/ros2_ws/install/tomatoes_detection1/lib/python3.10/site-packages/tomatoes_detection1-0.0.0-py3.10.egg-info
+[1.072s] running install_scripts
+[1.089s] Installing task2_solution script to /home/iot/ros2_ws/install/tomatoes_detection1/lib/tomatoes_detection1
+[1.089s] writing list of installed files to '/home/iot/ros2_ws/build/tomatoes_detection1/install.log'
+[1.115s] Invoked command in '/home/iot/ros2_ws/src/tomatoes_detection1' returned '0': CMAKE_PREFIX_PATH=/home/iot/ros2_ws/install/parc_robot_interfaces:/home/iot/ros2_ws/install/parc_robot_bringup:/home/iot/ros2_ws/install/parc_robot_description:/home/iot/ros2_ws/install/parc_robot PYTHONPATH=/home/iot/ros2_ws/build/tomatoes_detection1/prefix_override:/home/iot/ros2_ws/install/tomatoes_detection1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tomatoes_detection1 build --build-base /home/iot/ros2_ws/build/tomatoes_detection1/build install --record /home/iot/ros2_ws/build/tomatoes_detection1/install.log --single-version-externally-managed install_data
