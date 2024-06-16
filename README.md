@@ -23,14 +23,18 @@ Agricultural robotics enhances efficiency, productivity, and precision in farmin
 
 ## Dependencies
 Packages needed are: 
--  pip:  pip install ultralytics     # to is to be able to successfully run the tomatoes_detection1 package to be able to use YOLOv8. Install in the 
-    tomatoes_detection1 directory.
-- opencv: Open-source computer vision library.
+```
+pip:  pip install ultralytics     # to is to be able to successfully run the tomatoes_detection1 package to be able to use YOLOv8. Install in the tomatoes_detection1 directory.
+```
+```
+opencv: Open-source computer vision library.
     $ sudo apt-get install python3-opencv
+```
   
 - ROS2 packages including parc_robot_interfaces, sensor_msgs, ament_index_python, rclpy, std_msgs, cv_bridge.
   
 - dependence are located in the package.xml
+```
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
   <depend>geometry_msgs</depend>
@@ -38,6 +42,7 @@ Packages needed are:
   <depend>sensor_msgs</depend>
   <depend>cv_bridge</depend>
   <depend>ament_index_python</depend>
+```
   
 - `ros2_control`: ROS packages including controller interface, controller manager, hardware interface etc.
     `$ sudo apt-get install ros-humble-ros2-control`
