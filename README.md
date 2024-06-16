@@ -11,8 +11,7 @@ Agricultural robotics enhances efficiency, productivity, and precision in farmin
 
 **Team Member Names:**
 
-* Samuel Oyefusi  (Team Leader)
-* Oyefusi Samuel - oluwakorede.oyefusi@pau.edu.ng
+* Oyefusi Samuel - oluwakorede.oyefusi@pau.edu.ng (Team Leader)
 * Onuoha Christian - Christian.onuoha@pau.edu.ng
 * Israel Afolabi - Israel.afolabi@pau.edu.ng
 * Mayowa Oluyoye - oluyoye22@gmail.com
@@ -23,11 +22,17 @@ Agricultural robotics enhances efficiency, productivity, and precision in farmin
   
 
 ## Dependencies
-
+Packages needed are: 
+- pip install ultralytics # to is to be able to successfully run the tomatoes_detection1 package to be able to use YOLOv8. Install in the tomatoes_detection1 directory.
+- opencv: Open-source computer vision library.
+    $ sudo apt-get install python3-opencv
+- ROS2 packages including parc_robot_interfaces, sensor_msgs, ament_index_python, rclpy, std_msgs, cv_bridge.
+- `ros2_control`: ROS packages including controller interface, controller manager, hardware interface etc.
+    `$ sudo apt-get install ros-humble-ros2-control`
 
 ## Package Overview
 
-* This section details the custom ROS packages developed for our project:
+* This section details the custom ROS2 packages developed for our project:
 
 * parc_robot_bringup (./parc_robot_bringup/): This package houses configuration files, the simulated world, scripts, and launch files responsible for bringing up the PARC robot for both Task 1 and Task 2.
 
@@ -35,17 +40,6 @@ Agricultural robotics enhances efficiency, productivity, and precision in farmin
 
 * parc_robot_interfaces (./parc_robot_interfaces/): This package includes custom message definitions used in our project for communication between various components. These custom messages likely facilitate data exchange specific to our robot's functionalities.
 
-**Packages needed are:** 
-
-* `ros2_control`: ROS packages including controller interface, controller manager, hardware interface etc.
-
-    * `$ sudo apt-get install ros-humble-ros2-control`
-
-* `opencv`: Open-source computer vision library.
-    pip install ultralytics 
-
-
-    * `$ sudo apt-get install python3-opencv`
 
 ## Task 1
 
@@ -63,10 +57,11 @@ Command to run the solution:
 **` ros2 run tomatoes_detection1 task2_solution `**
 
 ## Challenges Faced
-Challenges Faced
+Task 1
+
+Task 2
+For Task 2, detecting tomatoes was challenging due to their tendency to cluster together, complicating image processing. Green tomatoes occasionally confused the model, causing it to misidentify them as weeds.--------------------------------------------------
 Internet connectivity issues.
 Insufficient GPU for image processing tasks.
 Difficulty in distinguishing closely packed tomatoes, resembling grape clusters.
 Misidentification of green tomatoes as weeds.
-Task 2
-For Task 2, detecting tomatoes was challenging due to their tendency to cluster together, complicating image processing. Green tomatoes occasionally confused the model, causing it to misidentify them as weeds.--------------------------------------------------
