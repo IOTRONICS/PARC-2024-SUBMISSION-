@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'roi = farmland_navigation.task1_solution:main',
+            'task1_solution = farmland_navigation.task1_solution:main',
         ],
     },
 )
