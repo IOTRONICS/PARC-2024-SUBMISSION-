@@ -59,6 +59,7 @@ In Task 1, we used a camera for visual servoing, creating a model to detect pegs
 
 Command to run the solution:
 ```
+  source ~/ros2_ws/install/setup.bash
 ` ros2 run farmland_navigation task1_solution `
 ```
 ## Task 2
@@ -66,7 +67,9 @@ We used OpenCV and YOLOv8 for tomato detection through object recognition. OpenC
 
 Command to run the solution:
 
-**` ros2 run tomatoes_detection1 task2_solution `**
+**`
+source ~/ros2_ws/install/setup.bash
+ros2 run tomatoes_detection1 task2_solution `**
 
 ## Challenges Faced
 (Task 1)
