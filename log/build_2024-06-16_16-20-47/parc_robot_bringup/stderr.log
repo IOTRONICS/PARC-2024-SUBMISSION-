@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:80 (file):
-  file INSTALL cannot find
-  "/home/iot/ros2_ws/src/parc_robot_bringup/scripts/task1_solution.py": No
-  such file or directory.
-
-[0m
