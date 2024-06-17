@@ -29,7 +29,7 @@ pip:  pip install ultralytics
 ```
 opencv: Open-source computer vision library.
 ```
-    $ sudo apt-get install python3-opencv
+     sudo apt-get install python3-opencv
 ```
   
 - ROS2 packages including parc_robot_interfaces, sensor_msgs, ament_index_python, rclpy, std_msgs, cv_bridge.
