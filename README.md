@@ -21,9 +21,41 @@ Agricultural robotics enhances efficiency, productivity, and precision in farmin
 * Chima Okwuokei - chima.okwuokei@pau.edu.ng
   
 
+Sure, the provided text has some grammatical errors and can be improved for clarity. Here's the corrected version:
+
 ## Dependencies
-Packages needed are: 
-To is to be able to successfully run the tomatoes_detection1 package to be able to use YOLOv8. Install in the tomatoes_detection1 directory.
+
+**To successfully run the `tomatoes_detection1` package, which utilizes YOLOv8, you'll need to install the following packages in the `tomatoes_detection1` directory:**
+
+* **Ultralytics:** This is the core library providing YOLOv8 functionalities in Python. You can install it using `pip install ultralytics`.
+* **Torch:** A deep learning framework used by Ultralytics. Installation depends on your system and desired functionalities (CPU/GPU). Refer to the PyTorch website for instructions [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/).
+
+**Additional packages (depending on the code):**
+
+* **OpenCV-Python:** Used for image processing tasks. Install with `pip install opencv-python`.
+* **NumPy:** A fundamental Python library for numerical computations. Most likely already installed, but you can check with `pip show numpy`.
+
+**Optional (for development):**
+
+* **Matplotlib:** Used for visualization (e.g., plotting bounding boxes). Install with `pip install matplotlib`.
+
+**Installation:**
+
+1. Navigate to the `tomatoes_detection1` directory using your terminal.
+2. Run the installation commands for each package mentioned above. For example:
+
+```bash
+pip install ultralytics
+pip install opencv-python  # If needed
+```
+
+**Note:**
+
+* Ensure you have Python installed before installing these packages.
+* Double-check the `tomatoes_detection1` code for any specific dependencies mentioned in its documentation (if available).
+
+By installing these packages, you should have the necessary environment to run the `tomatoes_detection1` code.
+ 
 ```
 pip:  pip install ultralytics 
 ```
