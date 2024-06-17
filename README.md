@@ -21,7 +21,6 @@ Agricultural robotics enhances efficiency, productivity, and precision in farmin
 * Chima Okwuokei - chima.okwuokei@pau.edu.ng
   
 
-Sure, the provided text has some grammatical errors and can be improved for clarity. Here's the corrected version:
 
 ## Dependencies
 
@@ -51,18 +50,14 @@ pip install opencv-python  # If needed
 
 **Note:**
 
-* Ensure you have Python installed before installing these packages.
-* Double-check the `tomatoes_detection1` code for any specific dependencies mentioned in its documentation (if available).
-
-By installing these packages, you should have the necessary environment to run the `tomatoes_detection1` code.
- 
-```
-pip:  pip install ultralytics 
-```
-opencv: Open-source computer vision library.
-```
+* Ensure you have Python installed before installing these packages. ```
      sudo apt-get install python3-opencv
 ```
+* Double-check the `tomatoes_detection1` code for any specific dependencies mentioned in its documentation (if available).
+
+By installing these packages, you should have the necessary environment to run the `tomatoes_detection1` and `farmland_navigation` code.
+ 
+
   
 - ROS2 packages including parc_robot_interfaces, sensor_msgs, ament_index_python, rclpy, std_msgs, cv_bridge.
   
