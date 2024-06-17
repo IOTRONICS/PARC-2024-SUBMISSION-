@@ -50,7 +50,8 @@ pip install opencv-python  # If needed
 
 **Note:**
 
-* Ensure you have Python installed before installing these packages. ```
+* Ensure you have Python installed before installing these packages.
+ ```
      sudo apt-get install python3-opencv
 ```
 * Double-check the `tomatoes_detection1` code for any specific dependencies mentioned in its documentation (if available).
@@ -74,6 +75,7 @@ By installing these packages, you should have the necessary environment to run t
   
 - `ros2_control`: ROS packages including controller interface, controller manager, hardware interface etc.
     `$ sudo apt-get install ros-humble-ros2-control`
+
 
 ## Package Overview
 
